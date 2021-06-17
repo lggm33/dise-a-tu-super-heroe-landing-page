@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>Animaciones con css</title>
+</head>
+<body>
+  <div class="page">
+    <!-- Main Content -->
+    <section class="container">
+      <nav class="navbar">
+        <div class="navbar__content">
+          <img src="https://i.ibb.co/MMmDPXN/lego.png" alt="imagen lego">
+          <ul>
+            <li><a href="/">EXCLUSIVOS</a></li>
+            <li><a href="/">NUEVOS</a></li>
+            <li><a href="/">GIFT CARDS</a></li>
+            <li><a href="/">FIND A STORE</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="main-content">
+        <p>Diseña tu</p>
+        <h1>Súper Héroe!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sequi dignissimos cumque laborum, nemo maxime consectetur obcaecati fuga consequuntur voluptatem similique, pariatur debitis omnis et! Perferendis architecto voluptatem tempora officia!</p>
+      </section>
+
+      <section class="side-content">
+        <span>Superman</span>
+        <img src="https://i.ibb.co/x16pz1x/super-man.png" alt="superman">
+        <div></div>
+      </section>
+
+      <section class="footer">
+        <div class="button">
+          <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="spiderman">
+        </div>
+        <div class="button">
+          <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="robin">
+        </div>
+        <div class="button">
+          <img src="https://i.ibb.co/M18p91c/batman.webp" alt="batman">
+        </div>
+      </section>
+    </section>
+    <!-- Loader -->
+    <section class="loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </section>
+    <!-- Modal -->
+    <section class="modal hidden">
+      <div class="modal__content">
+        <img class="modal__content-close" src="https://img.icons8.com/windows/50/000000/macos-close.png"/>
+      </div>
+      <div class="modal__content--slider">
+        <input type="radio" id="radio-1" name="slider-1" checked >
+        <input type="radio" id="radio-2" name="slider-1" >
+        <input type="radio" id="radio-3" name="slider-1" >
+        <div class="cards">
+          <label for="radio-1" id="card-1" class="card">
+            <img src="https://i.ibb.co/tKWqw8J/spiderman.png">
+          </label>
+          <label for="radio-2" id="card-2" class="card">
+            <img src="https://i.ibb.co/Xzsdvgg/robin.png">
+          </label>
+          <label for="radio-3" id="card-3" class="card">
+            <img src="https://i.ibb.co/M18p91c/batman.webp" alt="spiderman3">
+          </label> 
+        </div> 
+      </div>     
+    </section>
+  </div>
+</body>
+<script src="./index.js"></script>
+</html>

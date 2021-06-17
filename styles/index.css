@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap');
+@import url(./navbar.css);
+@import url(./main-content.css);
+@import url(./side-content.css);
+@import url(./footer.css);
+@import url(./loader.css);
+@import url(./modal.css);
+
+:root {
+  --primary-color: #ffd602;
+  --secundary-color: #d5040a;
+  --variation-color: #036cb6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+.page {
+  position: relative;
+  height: 100vh;
+}
+.container {  
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  display: grid;
+  grid-template: 20% 50% 30% / 55% 45%;
+  grid-template-areas:  'nav     aside'
+                        'section aside'
+                        'footer  aside';
+}
+
