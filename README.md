@@ -1,6 +1,3 @@
 # animacionesCSS
-Proyect of animations with CSS
 
-In this repository you will find all the code to the proyect
-
-It´s a proyect where i'm implementing a few animations properties, follow de next link to wach the proyect: https://lggm33.github.io/dise-a-tu-super-heroe-landing-page/
+Here you can find a basic landing page where different CSS animations are implemented and you can see different lego heroes: https://lggm33.github.io/dise-a-tu-super-heroe-landing-page/
